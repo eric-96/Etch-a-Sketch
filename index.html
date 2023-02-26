@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eric-96's Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Magic Sketch</h1>
+    </header>
+    <div class="container">
+        <div class="config">
+            <input id="colorPicker" type="color"/>
+            <input id="sizeSlider" type="range" value="24" min="1" max="64" />
+            <button id="rainbowMode">Rainbow</button>
+            <button id="Eraser">Eraser</button>
+            <button id="Clear">Clear</button>
+        </div>
+            <div id="grid" class="grid"></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
