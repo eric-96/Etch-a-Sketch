@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eric-96's Etch-a-Sketch</title>
+    <title>Magic Sketch</title>
+    <script src="https://kit.fontawesome.com/ad76778149.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="penIcon.png" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Magic Sketch</h1>
+        <h1><span class="magic">Magic</span>&nbsp<span>Sketch</span></h1>
     </header>
     <div class="container">
         <div class="config">
-            <input id="colorPicker" type="color"/>
             <input id="sizeSlider" type="range" value="24" min="1" max="64" />
             <button id="rainbowMode">Rainbow</button>
             <button id="Eraser">Eraser</button>
             <button id="Clear">Clear</button>
-        </div>
+            <input class="colorPicker" id="colorPicker" type="color" value ="#4a4a64"/>
+            <p> <a href="https://github.com/eric-96" target="_blank">
+                <i class="fa-brands fa-github"></i></a></p>
+        </div class="gridContainer">
             <div id="grid" class="grid"></div>
     </div>
     

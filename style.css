@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  }
+  
+  header h1 {
+    font-size: 50px;
+    color: #183153;
+  }
+  .magic {
+    color: #FAB005;
+  }
+  
+  /* Container */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 10px;
+    gap: 10px;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  .config {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 200px;
+  }
+  
+  .config input[type="color"],
+  .config input[type="range"] {
+    margin: 10px;
+  }
+  .colorPicker {
+    border-radius: 50%;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 50px;
+    height: 50px;
+    background-color: #183153;
+  }
+  input[type='color']::-webkit-color-swatch {
+    border: none;
+    border-radius: 50px;
+  }
+  input[type='range'] {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #183153;
+    height: 2px;
+  }
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    background: #183153;
+    }
+
+  
+  .config button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #183153;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    min-width: 50%;
+  }
+  
+  .config button:hover {
+    background-color: #FAB005;
+    color:white;
+  }
+  
+  .fa-github {
+    font-size: 25px;
+    color: #FAB005;
+  }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: #183153 0px 3px 10px;
+    margin: 0 10px;
+  }
+  
