@@ -23,7 +23,7 @@
   header h1 {
     font-size: 75px;
     color:#fff;
-    text-shadow: #183153 2px 0px 4px;
+    text-shadow: #292929 2px 2px 2px;
 
   }
   
@@ -60,6 +60,7 @@
     width: 50px;
     height: 50px;
     background-color: #183153;
+    cursor: pointer;
   }
   input[type='color']::-webkit-color-swatch {
     border: none;
@@ -83,23 +84,24 @@
   .config button {
     margin: 0 10px;
     padding: 10px 15px;
-    background-color: #183153;
-    color: white;
+    background-color: none;
+    border-color: #242424;
+    color: #242424;
+    border-width: thin;
     font-weight: 600;
-    border: none;
     border-radius: 100px;
     cursor: pointer;
     min-width: 50%;
   }
   
   .config button:hover {
-    background-color: #FAB005;
+    background-color: #183153;
     color:white;
   }
   
   .fa-github {
     font-size: 25px;
-    color: #FAB005;
+    color: #242424;
   }
 
   /* Grid */
@@ -108,7 +110,7 @@
     width: 500px;
     height: 500px;
     background-color: #ffffff;
-    box-shadow: #183153 0px 3px 10px;
+    box-shadow: #292929 0px 3px 8px;
     margin: 0 10px;
   }
   
