@@ -7,7 +7,7 @@
     const sizeValue = document.getElementById('sizeValue');
     const grid = document.getElementById('grid');
 
-    let currentColor = 'black';
+    let currentColor = '#333333';
     let currentMode = 'color';
     let currentSize = 16;
 
@@ -48,7 +48,7 @@
 
     function reloadGrid() {
     clearGrid();
-    setupGrid(currentSize);
+    createBoard(currentSize);
     }
 
     function clearGrid() {
@@ -100,5 +100,5 @@
 
         window.onload = () => {
             createBoard(currentSize)
-            activateButton(currentMode)
+            changeMode(currentMode)
         }
